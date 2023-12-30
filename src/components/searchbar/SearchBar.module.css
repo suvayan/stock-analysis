@@ -1,0 +1,64 @@
+.container {
+	width: 45vw;
+	position: relative;
+}
+
+.inputWraper {
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 10px;
+	height: 2.5rem;
+	padding: 0 15px;
+	display: flex;
+	align-items: center;
+	border: 1px solid #dddddd;
+	/* box-shadow: 5px 5px 2px 2px #000; */
+}
+
+.searchInput {
+	background-color: transparent;
+	border: none;
+	height: 100%;
+	font-size: 1.25rem;
+	width: 100%;
+	margin-right: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.searchInput:focus {
+	outline: none;
+}
+
+.iconBox {
+	display: flex;
+	gap: 5px;
+}
+
+.iconPointer {
+	cursor: pointer;
+}
+
+.listing {
+	width: 45vw;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 8px #dddddd;
+	padding: 4px 0px;
+	display: flex;
+	height: 250px;
+	max-height: 300px;
+	overflow-y: scroll;
+	flex-direction: column;
+	/* justify-content: center; */
+	gap: 10px;
+	position: absolute;
+}
+
+.listItem {
+	cursor: pointer;
+	padding: 4px 10px;
+	/* font-size: 0.3rem; */
+}
+
+.listItem:hover {
+	background-color: #efefef;
+}

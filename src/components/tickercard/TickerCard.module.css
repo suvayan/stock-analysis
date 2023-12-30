@@ -1,0 +1,64 @@
+.tickercard {
+	flex-basis: 24%;
+	/* margin: 10px 0px; */
+	padding: 5px;
+	border: 1px solid #dddddd;
+	background-color: #ffffff;
+	display: flex;
+	gap: 5%;
+	transition: transform 0.5s;
+	cursor: pointer;
+}
+
+.tickercard:hover {
+	transform: scale(1.1);
+}
+
+.symbol {
+	width: 29%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.symboltext {
+	font-size: 0.9vw;
+	font-weight: bolder;
+}
+
+.info {
+	width: 69%;
+	padding: 3px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	gap: 2px;
+}
+
+.nametext {
+	font-size: 1vw;
+	font-weight: bold;
+	word-wrap: break-word;
+}
+
+.typetext {
+	font-size: 0.9vw;
+	color: #9d9696;
+}
+
+.regiontext {
+	font-size: 0.9vw;
+}
+
+.currencytext {
+	font-size: 0.9vw;
+}
+
+.timediv {
+	display: flex;
+	justify-content: space-between;
+}
+
+.timetext {
+	font-size: 0.9vw;
+}
